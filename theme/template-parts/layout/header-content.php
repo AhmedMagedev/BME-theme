@@ -9,9 +9,11 @@
 
 ?>
 
-<header id="masthead"  class="w-full flex fixed z-30">
 
-	<div>
+<header  class=" w-full flex fixed z-30 bg-black items-center justify-center pb-6">
+
+	<div class="flex w-full items-center justify-between text-center">
+		<
 		<?php
 		if ( is_front_page() ) :
 			?>
@@ -23,8 +25,10 @@
 			<?php
 		endif;
 		?>
-
+			<img src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="float-right w-7 h-4 mr-10 mt-7">
 	</div>
+	
+	
 
 	<nav id="site-navigation" class="hidden" aria-label="<?php esc_attr_e( 'Main Navigation', 'bme' ); ?>">
 		<button aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bme' ); ?></button>
@@ -39,6 +43,7 @@
 		);
 		?>
 	</nav><!-- #site-navigation -->
+	
 
 </header><!-- #masthead -->
 

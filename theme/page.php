@@ -38,7 +38,7 @@ get_header();
 				<p class="text-sm text-right uppercase underline-offset-8 underline pl-80">know more <span></span></p>
 			</div>
 		</div>
-		<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 
@@ -62,37 +62,24 @@ get_header();
     <section x-ref="splide" class="splide" aria-label="Splide/Alpine.js Carousel Example">
         <div class="splide__track">
             <ul class="splide__list">
-                <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=1" alt="placeholder image">
+                <li class="splide__slide flex flex-col items-center justify-center  bg-black pb-8 ">
+                <video src="https://thebmegroup.com/wp-content/uploads/2022/04/safemode.mp4" autoplay muted loop class="w-full  bg-black object-contain "></video>
 					<p class="absolute top-0 text-white text-5xl inset-0">I'm some text</p>
                 </li>
 
                 <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=2" alt="placeholder image">
+                <video src="https://thebmegroup.com/wp-content/uploads/2022/11/cutdown-superdome_1.mp4" autoplay muted loop class="w-full  bg-black object-contain "></video>
+					<p class="absolute top-0 text-white text-5xl inset-0">I'm some text</p>
                 </li>
 
                 <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=3" alt="placeholder image">
+                    <video src="https://thebmegroup.com/wp-content/uploads/2022/04/insomnia.mp4" autoplay muted loop class="w-full  bg-black object-contain "></video>
+					<p class="absolute top-0 text-white text-5xl inset-0">I'm some text</p>mg class="w-full" src="https://thebmegroup.com/wp-content/uploads/2022/04/insomnia.mp4" alt="placeholder image">
                 </li>
 
                 <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=4" alt="placeholder image">
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=5" alt="placeholder image">
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=6" alt="placeholder image">
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=7" alt="placeholder image">
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                    <img class="w-full" src="https://picsum.photos/800/400?random=8" alt="placeholder image">
+                    <video src="https://thebmegroup.com/wp-content/uploads/2022/05/Playstation.mp4" autoplay muted loop class="w-full  bg-black object-contain "></video>
+					<p class="absolute top-0 text-white text-5xl inset-0">I'm some text</p>
                 </li>
             </ul>
         </div>

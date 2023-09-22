@@ -13,7 +13,13 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			backgroundImage: {
+				'nav-bg':
+					"url('https://thebmegroup.com/wp-content/themes/bme/img/menu-bg.png')",
+				'footer-texture': "url('/img/footer-texture.png')",
+			},
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.

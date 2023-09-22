@@ -32,11 +32,11 @@ get_header();
 			</div>
 		</div>
 		<div class="w-full h-96 text-center justify-center flex items-center text-white bg-black">
-			<div>
+			<div class="w-1/3">
 				<p class="text-4xl italic uppercase font-bold text-left"><?php the_field('mid_section_tagline') ?></p>
-                <div>
-                    <p class="text-sm text-right uppercase underline-offset-8 underline pl-80"><?php the_field('mid_section_subline') ?></p>
-                    
+                <div class="border-b border-white w-28 flex     ">
+                    <p class="text-sm text-right uppercase object-left "><?php the_field('mid_section_subline') ?></p>
+                    <svg viewBox="0 0 1024 1024" class="icon my-auto w-4 h-4" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path></g></svg>
                 </div>
 			</div>
 		</div>
@@ -93,18 +93,26 @@ get_header();
     <div class="w-full h-screen text-center justify-center flex items-center text-white bg-black leading-loose">
 			<div>
 				<p class="text-4xl uppercase font-extrabold text-left leading-relaxed tracking-wide"><?php the_field('cta_tagline') ?></p>
-                <div class="flex justify-center space-x-4">
-                    <div class="border-b border-white pr-4">
-                        <p class="text-md text-center uppercase mt-3"><?php the_field('cta_option_1') ?></p>
+                <div class="flex justify-center space-x-4 pt-4">
+                    <div class="border-b space-x-4 border-white justify-between flex">
+                        <p class="text-md text-center uppercase my-auto"><?php the_field('cta_option_1') ?></p>
+                        <svg viewBox="0 0 1024 1024" class="icon my-auto w-4 h-4" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path></g></svg>
                     </div>
-                    <div class="border-b border-white pr-4">
-                        <p class="text-md text-center uppercase mt-3"><?php the_field('cta_option_2') ?></p>
+                    <div class="border-b space-x-4 border-white justify-between flex">
+                        <p class="text-md text-center uppercase my-auto"><?php the_field('cta_option_2') ?></p>
+                        <svg viewBox="0 0 1024 1024" class="icon my-auto w-4 h-4" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path></g></svg>
                     </div>
 
                 </div>
 			</div>
 		</div>
 </div>
+
+<!-- Include these scripts somewhere on the page: -->
+<script defer src="https://unpkg.com/@alpinejs/ui@3.13.0-beta.0/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/@alpinejs/focus@3.13.0/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.13.0/dist/cdn.min.js"></script>
+ 
 
 		</main><!-- #main -->
 	</section><!-- #primary -->

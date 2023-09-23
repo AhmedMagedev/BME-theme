@@ -57,25 +57,20 @@ get_header();
                  <video src="https://thebmegroup.com/wp-content/uploads/2022/04/safemode.mp4" autoplay muted loop class="w-full object-cover aspect-video lg:aspect-[3/1]"></video>
                 <div class="absolute inset-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
 					<p class="text-white font-bold text-5xl italic text-center">I'm some text</p>
+                </div>
                 </li>
-
-                <!-- <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/11/cutdown-superdome_1.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
+                <li class="splide__slide h-full">
+                 <video src="https://thebmegroup.com/wp-content/uploads/2022/04/safemode.mp4" autoplay muted loop class="w-full object-cover aspect-video lg:aspect-[3/1]"></video>
+                <div class="absolute inset-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
+					<p class="text-white font-bold text-5xl italic text-center">I'm some text</p>
+                </div>
                 </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/04/insomnia.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
+                <li class="splide__slide h-full">
+                 <video src="https://thebmegroup.com/wp-content/uploads/2022/04/safemode.mp4" autoplay muted loop class="w-full object-cover aspect-video lg:aspect-[3/1]"></video>
+                <div class="absolute inset-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
+					<p class="text-white font-bold text-5xl italic text-center">I'm some text</p>
+                </div>
                 </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/05/Playstation.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
-                </li> -->
             </ul>
         </div>
     </section>

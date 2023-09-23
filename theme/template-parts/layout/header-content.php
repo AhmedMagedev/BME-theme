@@ -13,7 +13,7 @@
 <header id="navbar"  class=" w-full flex fixed z-30 items-center justify-center pb-6">
 
 	<div class="flex w-full items-center justify-between text-center">
-		<
+		<>
 		<?php
 		if ( is_front_page() ) :
 			?>

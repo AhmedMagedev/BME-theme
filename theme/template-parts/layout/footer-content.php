@@ -19,7 +19,7 @@
 		<div class="flex space-x-5 text-center items-center pt-3 mr-16">
 			<p class="text-white font-light text-sm uppercase whitespace-nowrap">subscribe to our newsletter</p>
 			<div class=" border-white border flex p-1 relative w-full justify-between">
-				<input class="bg-black text-white placeholder-white placeholder-opacity-50 text-sm" placeholder="Enter your email address" type="email" >
+				<input class="bg-black text-white flex-grow placeholder-white/50 text-sm" placeholder="Enter your email address" type="email" >
 				<div class="flex space-x-2">
 					<p class="text-sm text-white">Subscribe</p>
 					<svg viewBox="0 0 1024 1024" class="icon w-4 h-4 my-auto " version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path></g></svg>

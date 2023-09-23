@@ -1,15 +1,4 @@
 <?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default. Please note that
- * this is the WordPress construct of pages: specifically, posts with a post
- * type of `page`.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package BME
- */
 
 get_header();
 ?>
@@ -61,35 +50,7 @@ get_header();
         },
     }"
 >
-    <section x-ref="splide" class="splide " aria-label="Splide/Alpine.js Carousel Example ">
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/04/safemode.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/11/cutdown-superdome_1.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/04/insomnia.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
-                </li>
-
-                <li class="splide__slide flex flex-col items-center justify-center pb-8 ">
-                <video src="https://thebmegroup.com/wp-content/uploads/2022/05/Playstation.mp4" autoplay muted loop class="w-full object-contain "></video>
-                <div class="z-10 mx-auto absolute top-0 h-full w-full flex justify-center items-center bg-gradient-to-t  from-black via-transparent to-black">
-					<p class="text-white font-bold text-5xl italic mx-auto flex text-center">I'm some text</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+    
     <div class="w-full h-screen text-center justify-center flex items-center text-white bg-black leading-loose">
 			<div>
 				<p class="text-4xl uppercase font-extrabold text-left leading-relaxed tracking-wide"><?php the_field('cta_tagline') ?></p>

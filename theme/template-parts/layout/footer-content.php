@@ -20,10 +20,10 @@
 			<p class="text-white font-light text-sm uppercase whitespace-nowrap">subscribe to our newsletter</p>
 			<div class=" border-white border flex p-1 relative w-full justify-between">
 				<input class="bg-black text-white flex-grow placeholder-white/50 text-sm" placeholder="Enter your email address" type="email" >
-				<div class="flex space-x-2">
+				<button class="flex space-x-2">
 					<p class="text-sm text-white">Subscribe</p>
 					<svg viewBox="0 0 1024 1024" class="icon w-4 h-4 my-auto " version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path></g></svg>
-				</div>
+				</button>
 			</div>
 		</div>
 		<div class="flex text-center items-center py-6 justify-between mr-16">
@@ -42,44 +42,5 @@
 	All Rights Reserved. BME is a trading name of BME Group Limited in the United Kingdom and BME Global for Conferences <br>and Exhibitions JSC. in the Arab Republic of Egypt.
 	</p>
 </div>
-<!-- 
-
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-		<aside role="complementary" aria-label="<?php esc_attr_e( 'Footer', 'bme' ); ?>">
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</aside>
-	<?php endif; ?>
-
-	<?php if ( has_nav_menu( 'menu-2' ) ) : ?>
-		<nav aria-label="<?php esc_attr_e( 'Footer Menu', 'bme' ); ?>">
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-2',
-					'menu_class'     => 'footer-menu',
-					'depth'          => 1,
-				)
-			);
-			?>
-		</nav>
-	<?php endif; ?>
-
-	<div>
-		<?php
-		$am_blog_info = get_bloginfo( 'name' );
-		if ( ! empty( $am_blog_info ) ) :
-			?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
-			<?php
-		endif;
-
-		/* translators: 1: WordPress link, 2: WordPress. */
-		printf(
-			'<a href="%1$s">proudly powered by %2$s</a>.',
-			esc_url( __( 'https://wordpress.org/', 'bme' ) ),
-			'WordPress'
-		);
-		?>
-	</div> -->
 
 </footer><!-- #colophon -->

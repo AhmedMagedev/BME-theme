@@ -8,3 +8,14 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+import Splide from '@splidejs/splide';
+import Alpine from 'alpinejs';
+import focus from '@alpinejs/focus';
+import ui from '@alpinejs/ui';
+
+window.Splide = Splide;
+window.Alpine = Alpine;
+
+Alpine.plugin(focus);
+Alpine.plugin(ui);
+Alpine.start();

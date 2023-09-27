@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<a href="<?php get_permalink($post_id) ?>">
+<a href="<?php echo get_permalink(); ?>">
 
 	<div class="relative flex bg-black w-[350px] h-[300] overflow-hidden">
 		

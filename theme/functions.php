@@ -145,6 +145,7 @@ add_action( 'widgets_init', 'am_widgets_init' );
  */
 function am_scripts() {
 	wp_enqueue_style( 'bme-style', get_stylesheet_uri(), array(), AM_VERSION );
+	wp_enqueue_style( 'bme-splide', "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css", array(), AM_VERSION );
 	wp_enqueue_script( 'bme-script', get_template_directory_uri() . '/js/script.min.js', array(), AM_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -153,44 +154,6 @@ function am_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'am_scripts' );
 
-/**
- * Enqueue the block editor script.
- */
-function am_enqueue_block_editor_script() {
-	wp_enqueue_script(
-		'bme-editor',
-		get_template_directory_uri() . '/js/block-editor.min.js',
-		array(
-			'wp-blocks',
-			'wp-edit-post',
-		),
-		AM_VERSION,
-		true
-	);
-}
-add_action( 'enqueue_block_editor_assets', 'am_enqueue_block_editor_script' );
-
-/**
- * Enqueue the script necessary to support Tailwind Typography in the block
- * editor, using an inline script to create a JavaScript array containing the
- * Tailwind Typography classes from AM_TYPOGRAPHY_CLASSES.
- */
-function am_enqueue_typography_script() {
-	if ( is_admin() ) {
-		wp_enqueue_script(
-			'bme-typography',
-			get_template_directory_uri() . '/js/tailwind-typography-classes.min.js',
-			array(
-				'wp-blocks',
-				'wp-edit-post',
-			),
-			AM_VERSION,
-			true
-		);
-		wp_add_inline_script( 'bme-typography', "tailwindTypographyClasses = '" . esc_attr( AM_TYPOGRAPHY_CLASSES ) . "'.split(' ');", 'before' );
-	}
-}
-add_action( 'enqueue_block_assets', 'am_enqueue_typography_script' );
 
 
 function add_menu_link_class( $atts, $item, $args ) {

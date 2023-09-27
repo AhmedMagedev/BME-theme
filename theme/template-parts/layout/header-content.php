@@ -13,18 +13,18 @@
 <header id="navbar"  class="transition-all ease-in-out delay-200 w-full flex fixed z-30 items-center justify-center pb-6">
 
 	<div class="flex w-full items-center justify-between text-center">
-		<div class="">.</div>
+		<div class="hidden sm:inline">.</div>
 		<?php
 		if ( is_front_page() ) :
 			?>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 
-        <h1><img src="https://thebmegroup.com/wp-content/themes/bme/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" id="logo" class=" mx-auto w-28"></h1>
+        <h1><img src="https://thebmegroup.com/wp-content/themes/bme/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" id="logo" class=" mx-auto mt-2 w-28 aspect-auto sm:ml-0 ml-4"></h1>
       </a>
 			<?php
 		else :
 			?>
-			<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="https://thebmegroup.com/wp-content/themes/bme/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" id="logo" class=" mx-auto w-28 h-8 mt-5"></a></p>
+			<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="https://thebmegroup.com/wp-content/themes/bme/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" id="logo" class="mx-auto w-28"></a></p>
 			<?php
 		endif;
 		?>
@@ -32,7 +32,7 @@
 		<div x-data="{ open: false }" class="flex justify-center">
     <!-- Trigger -->
     <span x-on:click="open = true">
-    <img id="showNav" src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="cursor-pointer float-right w-7 h-4 mr-10 mt-7">
+    <img id="showNav" src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="mt-2 cursor-pointer float-right w-7 h-4 mr-5">
     </span>
  
     <!-- Slideover -->
@@ -70,7 +70,7 @@
               <?php 
               $args = array(
                   'container'     => '',
-                  'menu_class' => 'text-white text-lg font-extrabold flex space-x-5',        
+                  'menu_class' => 'text-white text-lg font-extrabold sm:flex sm:space-y-0 space-y-5 sm:space-x-5',        
                   'theme_location' => 'menu-1',
                   'depth'         => 1,
                   'fallback_cb'   => false,
@@ -117,20 +117,3 @@
 	
 
 </header><!-- #masthead -->
-
-
-<!-- <div id="navbar" class=" w-full h-20 flex fixed z-40 " >
-		<img src="https://thebmegroup.com/wp-content/themes/bme/img/logo.png" alt="logo" id="logo" class=" mx-auto w-28 h-8 mt-5">
-		<img src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="w-7 h-4 mr-10 mt-7">
-	</div>
-<script>
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.backgroundColor = "black";
-  } else {
-    document.getElementById("navbar").style.backgroundColor = "";
-  }
-}
-</script> -->

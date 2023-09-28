@@ -25,7 +25,7 @@ get_header();
                                 x-dialog
                                 x-model="open"
                                 style="display: none"
-                                class="fixed w-full inset-0 overflow-y-auto z-10"
+                                class="fixed w-fit inset-0 overflow-y-auto z-10"
                                 >
                             <!-- Overlay -->
                             <div x-dialog:overlay x-transition.opacity class="fixed inset-0 bg-black bg-opacity-50"></div>
@@ -50,7 +50,7 @@ get_header();
                                     </div>
                                     <!-- Body -->
                                     <div class="p-8">
-                                    <iframe src="<?php the_field('hero_play_video') ?>" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe src="<?php the_field('hero_play_video') ?>" class="aspect-video lg:aspect-[3/1]" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                     </div>       
                                 </div>
                             </div>

@@ -32,7 +32,7 @@
 		<div x-data="{ open: false }" class="flex justify-center">
     <!-- Trigger -->
     <span x-on:click="open = true">
-    <img id="showNav" src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="mt-2 cursor-pointer float-right w-7 h-4 mr-5">
+    <img id="showNav" src="https://thebmegroup.com/wp-content/themes/bme/img/menu-btn.svg" alt="menu" class="mt-2 cursor-pointer w-7 h-4 mr-5">
     </span>
  
     <!-- Slideover -->
